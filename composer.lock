@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c37bbd0a1abb20930ab9c6516cb661c6",
+    "content-hash": "265b5c4095a5d12e90e28c9bdb605f2d",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -1121,6 +1121,7 @@
                 "array_column",
                 "column"
             ],
+            "abandoned": true,
             "time": "2015-03-20T22:07:39+00:00"
         },
         {
@@ -2276,6 +2277,26 @@
                 "wordpress"
             ],
             "time": "2016-10-25T15:14:00+00:00"
+        },
+        {
+            "name": "wpackagist-plugin/timeline-express",
+            "version": "1.8.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/timeline-express/",
+                "reference": "tags/1.8.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/timeline-express.1.8.0.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/timeline-express/"
         }
     ],
     "packages-dev": [
