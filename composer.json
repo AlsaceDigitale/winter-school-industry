@@ -42,7 +42,8 @@
     "humanmade/s3-uploads": "*",
     "wp-cli/wp-cli" : "~0.22",
     "psy/psysh" : "~0.6",
-    "wpackagist-plugin/timeline-express": "^1.8"
+    "wpackagist-plugin/timeline-express": "^1.8",
+    "wpackagist-plugin/add-search-to-menu": "^4.1"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.0.2"

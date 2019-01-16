@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "265b5c4095a5d12e90e28c9bdb605f2d",
+    "content-hash": "76972ccb1a1bba99c287440d16b450fb",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -2277,6 +2277,26 @@
                 "wordpress"
             ],
             "time": "2016-10-25T15:14:00+00:00"
+        },
+        {
+            "name": "wpackagist-plugin/add-search-to-menu",
+            "version": "4.1.5",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/add-search-to-menu/",
+                "reference": "tags/4.1.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/add-search-to-menu.4.1.5.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/add-search-to-menu/"
         },
         {
             "name": "wpackagist-plugin/timeline-express",
