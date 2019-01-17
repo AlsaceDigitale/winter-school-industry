@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "76972ccb1a1bba99c287440d16b450fb",
+    "content-hash": "08c52432f1e86a8d66ea70109a5797eb",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -2297,6 +2297,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/add-search-to-menu/"
+        },
+        {
+            "name": "wpackagist-plugin/external-media-without-import",
+            "version": "1.1.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/external-media-without-import/",
+                "reference": "tags/1.1.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/external-media-without-import.1.1.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/external-media-without-import/"
         },
         {
             "name": "wpackagist-plugin/timeline-express",
