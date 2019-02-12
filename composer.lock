@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "08c52432f1e86a8d66ea70109a5797eb",
+    "content-hash": "808ac5d9719aa5e2712122551b01bcc0",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -2317,6 +2317,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/external-media-without-import/"
+        },
+        {
+            "name": "wpackagist-plugin/language-icons-flags-switcher",
+            "version": "2.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/language-icons-flags-switcher/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/language-icons-flags-switcher.zip?timestamp=1527500818",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/language-icons-flags-switcher/"
         },
         {
             "name": "wpackagist-plugin/timeline-express",
